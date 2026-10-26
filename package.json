@@ -1,0 +1,17 @@
+{
+  "name": "pixelfusion-studio-app",
+  "version": "59.0.0",
+  "private": true,
+  "description": "PixelFusion Studio - Android app",
+  "scripts": {
+    "sync": "npx cap sync android",
+    "apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/share": "^6.0.0"
+  }
+}

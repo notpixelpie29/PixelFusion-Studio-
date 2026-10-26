@@ -1,0 +1,13 @@
+{
+  "appId": "com.pixelfusion.studio",
+  "appName": "PixelFusion Studio",
+  "webDir": "www",
+  "backgroundColor": "#150F2C",
+  "android": {
+    "backgroundColor": "#150F2C",
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
